@@ -6,7 +6,6 @@ class FreightAggregator:
     def register_carrier(self, name, capacity):
         self.carriers.append({"name": name, "capacity": capacity})
         print(f"Перевозчик {name} зарегистрирован с вместимостью {capacity} кг.")
-
     def create_order(self, order_id, weight):
         self.orders.append({"order_id": order_id, "weight": weight})
         print(f"Создан заказ {order_id} на перевозку {weight} кг.")
