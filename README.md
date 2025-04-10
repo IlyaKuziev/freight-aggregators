@@ -1,5 +1,6 @@
 # freight-aggregators
 class FreightAggregator:
+
     def __init__(self):
         self.carriers = []
         self.orders = []
