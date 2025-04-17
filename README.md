@@ -1,7 +1,6 @@
 # freight-aggregators
 12 - 14---16
 class FreightAggregator:
-
     def __init__(self):
         self.carriers = []
         self.orders = []
@@ -11,7 +10,6 @@ class FreightAggregator:
     def create_order(self, order_id, weight):
         self.orders.append({"order_id": order_id, "weight": weight})
         print(f"Создан заказ {order_id} на перевозку {weight} кг.")
-
     def find_carrier(self, order_id):
         order = next((o for o in self.orders if o["order_id"] == order_id), None)
         if not order:
