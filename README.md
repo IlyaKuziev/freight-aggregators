@@ -6,6 +6,8 @@ class FreightAggregator:
         self.carriers = []
         self.orders = []
     def register_carrier(self, name, capacity):
+    ss
+     s
     hella hillz
         self.carriers.append({"name": name, "capacity": capacity})
         print(f"Перевозчик {name} зарегистрирован с вместимостью {capacity} кг.")
