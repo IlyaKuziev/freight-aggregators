@@ -6,6 +6,7 @@ class FreightAggregator:
         self.carriers = []
         self.orders = []
     def register_carrier(self, name, capacity):
+    monesy
     ss
      s
     hella hillz
