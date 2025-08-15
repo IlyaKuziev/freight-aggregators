@@ -7,7 +7,7 @@ class FreightAggregator:
     def register_carrier(self, name, capacity):
     monesy
     ss 
-    hella hillz
+    hella hillz 
         self.carriers.append({"name": name, "capacity": capacity})
         print(f"Перевозчик {name} зарегистрирован с вместимостью {capacity} кг.")
     def create_order(self, order_id, weight):
