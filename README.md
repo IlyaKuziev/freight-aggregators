@@ -3,7 +3,7 @@
 class FreightAggregator: 
     def __init__(self):
         self.carriers = []
-        self.orders = [] 
+        self.orders = []  
     def register_carrier(self, name, capacity):
     monesy 
     ss  
